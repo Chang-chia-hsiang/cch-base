@@ -1,4 +1,3 @@
-mkdir -p github
 git clone --bare https://charm.cs.illinois.edu/gerrit/namd.git $HOME/github/namd.git
 
 CODE_NAME=namd \
@@ -21,7 +20,7 @@ GIT_WORK_TREE=$HOME \
 CHARM_CODE_DIR=$GIT_WORK_TREE/$CODE_NAME-$CODE_GIT_TAG \
 CHARM_BASE=$CHARM_CODE_DIR/built \
 GCC_FFTW3_LIB_DIR=/root/fftw-build/3.3.8-shared-gcc840-avx2-broadwell \
-HPCX_FILES_DIR=/root/hpcx-v2.6.0-gcc-MLNX_OFED_LINUX-4.7-1.0.0.1-ubuntu16.04-x86_64 \
+HPCX_FILES_DIR=/root/sources/hpcx-v2.6.0-gcc-MLNX_OFED_LINUX-4.7-1.0.0.1-ubuntu16.04-x86_64 \
 GCC_DIR=/usr/local/gcc-8.4.0 \
 GCC_PATH='"$GCC_DIR/bin/gcc "' \
 GXX_PATH='"$GCC_DIR/bin/g++ -std=c++0x"' \
