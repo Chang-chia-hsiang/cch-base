@@ -1,6 +1,7 @@
 WORK_DIR=/root
 CODE_NAME=charm
-GIT_DIR=${WORK_DIR}/${CODE_NAME}.git
+mkdir -p github
+GIT_DIR=${WORK_DIR}/github/${CODE_NAME}.git
 git clone --bare https://github.com/UIUC-PPL/charm.git ${GIT_DIR}
 
 # Checkout Charm++ v6.10.1
