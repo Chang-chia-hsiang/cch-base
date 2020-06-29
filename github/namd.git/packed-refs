@@ -1,0 +1,71 @@
+# pack-refs with: peeled fully-peeled sorted 
+fc019cdb8d986cfadd69afcb519b214964bb1727 refs/heads/alchemy
+60f9cc47e1c0dc1e84f5c0022db7156cace5c4f4 refs/heads/devel
+ab0c9bc73894f4f744b863d0a5f9213049b9cac2 refs/heads/master
+b6f02cbc22a924d780a1a8bdbf21a5fa92aadf74 refs/heads/nobitfields
+0ef646244132185aa46b955cd0230eea02c82a50 refs/heads/origin
+84856c3923a396ecd31948ae53185fcd6dfae352 refs/heads/regs/for/devel
+c89475fb73a267965f9b9750d44ca8b487e166fd refs/heads/ronak/patchAggregation
+23bc20e72236080577332d79fb6e0da70a5c1886 refs/tags/development-0
+deba676d8f709471c095022d11ebe33741062673 refs/tags/development-1
+02698eaa80e886ca6c0a09ff08aa5bd76dcf6b1d refs/tags/development-2
+d9891ba2372bb9cbad43f9d0e50757377fe27778 refs/tags/development-3
+b6deb4cdaf416ae96a855262f199e81f1f1ac4d9 refs/tags/development-4
+fd5ff2966581e9aafb4e7f83b2df6052e4b6936b refs/tags/release-2-0
+8e7624b248d06e4cbc703575c0e5e82314d9febf refs/tags/release-2-0-beta-2
+4fe5520081f4c27cf1cc4c9bb23a5bd81932ca6d refs/tags/release-2-0-beta-3
+b76f26334c556a7d825971e209539f8a5723c14d refs/tags/release-2-0-pre-charm-syntax
+843a790b8f1c3c45046c54f244ec3d5c74690722 refs/tags/release-2-1
+77eaf01b67b143b487949074c2a9c4c4e91596a8 refs/tags/release-2-1-beta-1
+1e6d3c576712cf6904b05abf52f0012f08125486 refs/tags/release-2-1-beta-2
+0d6ec59934572e384aeb32f8c4de35932780c83e refs/tags/release-2-1-beta-3
+b09956f739fc91405b6b696e55f2a6556d558fb2 refs/tags/release-2-1-beta-4
+e1bda1c53b4f88b69b14944f8338f2c7bca3b819 refs/tags/release-2-10
+bf780229e87a438742ff637104fcfd8cc960aa03 refs/tags/release-2-10-beta-1
+28251d4d635e06df79ead9a5c2d260f7de247678 refs/tags/release-2-10-beta-2
+0f64ed355bac62e3f2e5b38edc982c2e6fc6158b refs/tags/release-2-11
+48ea043474c87b5ec0d5a295792819f8f38c28be refs/tags/release-2-11-beta-1
+26a2260d261aa0570090460964eb46dc91099462 refs/tags/release-2-11-beta-2
+a1e8357f02947a0a3c5c7c039f155d83ab71e000 refs/tags/release-2-12
+820ad3d5e763049ff68aa3234186ea74f2d4aa4c refs/tags/release-2-12-beta-1
+425ca9bc663ba4bce0f1370dae9cb6f53958cef6 refs/tags/release-2-13-beta-1
+^fdf7ea563b479a16b1889e8aaa211ebf9f4340d6
+d37e53cdbccca385d722cc8203f9141d8c063581 refs/tags/release-2-13-beta-2
+^f76fbc4d839d655e9c9c9d538eaf1c231d2d3b28
+666eb3279ea80a4fa506ce88bc7a4ab99d26cde1 refs/tags/release-2-14-beta-1
+^f8b49e7c21ee57b91eddb93f0fd2ffd1bd53e3ad
+ed3bbbc70b8cfc88ba5b4c355c49f430535ef4f6 refs/tags/release-2-14-beta-2
+^ab0c9bc73894f4f744b863d0a5f9213049b9cac2
+3d5d17abbbc8d1d5d00ba8c64ce6014e434e31cc refs/tags/release-2-2
+897fb828cafd6920fd1b702e0fe96791c136a232 refs/tags/release-2-2-beta-1
+fc4e2f326ef9184390a7490c541d9c1f10957c70 refs/tags/release-2-2-beta-2
+3a20a4e59d95653fe5c118c10c705ae99f0194c7 refs/tags/release-2-2-beta-3
+fb1d26b79b5243124b6f990ea8fb2cc8d3d64666 refs/tags/release-2-3
+dee939af98099d5f48f5221e5bc99ebed8eb1df4 refs/tags/release-2-3-beta-1
+3cb7f8581011b144b4847cbffd3d6eefacf7a648 refs/tags/release-2-3-beta-2
+0f95f02ba899cc91cb94df1d44e9527078565346 refs/tags/release-2-4
+ab24fa5d0274641fa59a10a6101f48bef74bde46 refs/tags/release-2-4-beta-1
+e7682c94903912a4f255cf33969165af2b839825 refs/tags/release-2-4-beta-2
+87c917a5f58dec5c401ecad3405fd27bfc97015e refs/tags/release-2-5
+6ebc9af59189fc652d177bc1fe6385b3ef037161 refs/tags/release-2-5-beta-1
+8a7fcbbc5085c7b59cc26e69a3359a586ec13bb4 refs/tags/release-2-5-beta-2
+84c846cd875f01b39636ee81e37d901ef2bd992c refs/tags/release-2-5-beta-3
+468dbed0a6ac7a2ead8715b22fbd578954b6c53b refs/tags/release-2-6
+e689b8e4985323ae6ff4742140c368b6271b9cd7 refs/tags/release-2-6-beta-1
+1e01176222ccb046ee4bba296918e0f98e37062a refs/tags/release-2-6-beta-2
+7df9b1de0db73b2dfc58675519ebc5bd90370d40 refs/tags/release-2-7
+92f1013fc0f8201ef6adb53215a7cf88e74958a5 refs/tags/release-2-7-beta-1
+5dc5bc5df3d148d0201e074517e7e7976411dd5d refs/tags/release-2-7-beta-2
+e353bf5cee6b95a1d11a6ed24b5af3a7aa9a282a refs/tags/release-2-7-beta-3
+92f808a1d83f6c1d962f6e6880bd13cdae153098 refs/tags/release-2-7-beta-4
+2dd06b4382b1b1c562317c3a18aa442a7397ab8f refs/tags/release-2-8
+6f649e11139d3e1a1ae7372ef221d9c5d92ec97b refs/tags/release-2-8-beta-1
+49034df98e88d71c3dcbec04296f46dce23194ab refs/tags/release-2-8-beta-2
+297025f3cea53587f7bdd21f24d486dd0b09bc0f refs/tags/release-2-8-beta-3
+5b85d8866de8a7c5cf76cf83fe3630aee1136275 refs/tags/release-2-9
+2bcea93a6e930efc0e9875d16f412e9e42da61b1 refs/tags/release-2-9-beta-1
+6013d43bb201a786bb2288f071d1974a055481c6 refs/tags/release-2-9-beta-2
+2d151971beabb9a8500615f1505e03f2627035b7 refs/tags/release-2-9-beta-3
+4e7a6ef2c1bda42d309102cc81f12d666cc20deb refs/tags/release-2.13
+^4095ae204564d3ddbb4dd30324cf5214534bee79
+50672f7dc2c6934de4dfe4796dd7a2f73a1f4e82 refs/tags/release-alpha-1
