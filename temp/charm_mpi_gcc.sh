@@ -1,8 +1,7 @@
 WORK_DIR=/root
 CODE_NAME=charm
-mkdir -p github
 GIT_DIR=${WORK_DIR}/github/${CODE_NAME}.git
-git clone --bare https://github.com/UIUC-PPL/charm.git ${GIT_DIR}
+git clone --bare https://github.com/UIUC-PPL/charm.git $HOME/github/charm.git
 
 # Checkout Charm++ v6.10.1
 GIT_TAG=v6.10.1
@@ -29,10 +28,7 @@ CMD_BUILD_MPI_CHARM_GCC=" \
         && hpcx_load \
         && mkdir -p ${CHARM_DIR}/built \
         && cd ${CHARM_DIR}/built \
-        && time -p ../build charm++ mpi-linux-x86_64 \
-        -j --with-production \
-        --basedir=$HPCX_MPI_DIR \
-        gcc gfortran $GCC_FLAGS \
+        && time -p ../build charm++ mpi-linux-x86_64 -j --with-production --basedir=$HPCX_MPI_DIR gcc gfortran $GCC_FLAGS \
         && hpcx_unload && module purge;"
 
 eval $CMD_BUILD_MPI_CHARM_GCC
