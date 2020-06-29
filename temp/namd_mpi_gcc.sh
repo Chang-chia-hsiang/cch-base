@@ -5,7 +5,6 @@ GIT_DIR=$HOME/github/$CODE_NAME.git \
 GIT_WORK_TREE=$HOME \
 CODE_DIR=$GIT_WORK_TREE/$CODE_NAME-$CODE_GIT_TAG \
 
-mkdir -p $GIT_WORK_TREE $CODE_DIR
 git --bare --git-dir=$GIT_DIR fetch --all --prune;
 git --bare --git-dir=$GIT_DIR --work-tree=$GIT_WORK_TREE reset --mixed $CODE_GIT_TAG;
 git --bare --git-dir=$GIT_DIR --work-tree=$CODE_DIR clean -fxdn;
