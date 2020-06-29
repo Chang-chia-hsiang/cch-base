@@ -1,5 +1,4 @@
 git clone --bare https://charm.cs.illinois.edu/gerrit/namd.git $HOME/github/namd.git
-
 CODE_NAME=namd \
 CODE_GIT_TAG=FETCH_HEAD \
 GIT_DIR=$HOME/github/$CODE_NAME.git \
