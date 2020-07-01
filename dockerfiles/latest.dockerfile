@@ -2,7 +2,7 @@
 # Date: 2020-06-16 Tue.
 # Desc: image with GCC8, OMPI4, and PSXE20 preinstalled to test FFTW3 and NAMD2 scripts
 
-FROM tings0802/hpc-base:0.4.1-all
+FROM tings0802/hpc-base:0.4.2-all
 SHELL ["/bin/bash", "-c"]
 WORKDIR /root
 
