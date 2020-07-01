@@ -25,7 +25,8 @@ CMD_BUILD_SHARED_GCC=" \
     -DCMAKE_C_FLAGS_RELEASE=$GCC_FLAGS \
     -DCMAKE_CXX_FLAGS_RELEASE=$GCC_FLAGS \
     && time -p make VERBOSE=1 V=1 install -j \
-    && cd $INSTALL_DIR/$BUILD_LABEL && ln -s lib64 lib | tee $BUILD_LABEL.log "
+    && cd $INSTALL_DIR/$BUILD_LABEL && ln -s lib64 lib | tee $BUILD_LABEL.log \
+    && cd $WORK_DIR"
 
 wget http://www.fftw.org/fftw-3.3.8.tar.gz -O - | tar -xzC ${WORK_DIR}
 eval $CMD_BUILD_SHARED_GCC
