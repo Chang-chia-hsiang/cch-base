@@ -29,7 +29,8 @@ CMD_BUILD_MPI_CHARM_GCC=" \
         && mkdir -p ${CHARM_DIR}/built \
         && cd ${CHARM_DIR}/built \
         && time -p ../build charm++ mpi-linux-x86_64 -j --with-production --basedir=$HPCX_MPI_DIR gcc gfortran $GCC_FLAGS \
-        && hpcx_unload && module purge;"
+        && hpcx_unload && module purge \
+        && cd $WORK_DIR"
 
 eval $CMD_BUILD_MPI_CHARM_GCC
 wait
