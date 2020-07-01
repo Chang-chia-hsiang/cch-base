@@ -50,7 +50,8 @@ CMD_BUILD_MPI_NAMD_GCC_FFTW3="
 --cxx $GXX_PATH --cxx-opts $GCC_FLAGS \
 && cd Linux-x86_64-g++ && time -p make -j \
 && cd $NAMD_DIR && mv Linux-x86_64-g++ Linux-x86_64-g++-mpi-fftw3 \
-&& hpcx_unload "
+&& hpcx_unload \
+&& cd $WORK_DIR"
 
 eval $CMD_BUILD_MPI_NAMD_GCC_FFTW3; wait
 
