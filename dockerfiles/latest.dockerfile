@@ -21,8 +21,8 @@ RUN source /root/charm_mpi_gcc.sh
 RUN source /root/namd_mpi_gcc.sh
 RUN cp /root/fftw-3.3.8/build-3.3.8-shared-gcc840-avx2-broadwell/libfftw3f.so.3.5.7 /usr/lib/x86_64-linux-gnu/
 RUN cp /root/sources/openmpi-4.0.3/ompi/.libs/libmpi.so.40 /usr/lib/x86_64-linux-gnu/
-RUN mv /root/fftw_gcc.sh /root/charm_mpi_gcc.sh /root/namd_mpi_gcc.sh /root/scripts/
 RUN rm /root/tcl8.5.9-linux-x86_64.tar.gz /root/sources/parallel_studio_xe_2020_cluster_edition.tgz
 RUN mv /root/tcl8.5.9-linux-x86_64 /root/sources/
 
 CMD eval ${SET_MODULE} && module use ${MODULE_DIR}; bash
+RUN mv /root/fftw_gcc.sh /root/charm_mpi_gcc.sh /root/namd_mpi_gcc.sh /root/scripts/
